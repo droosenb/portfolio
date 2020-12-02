@@ -1,0 +1,6 @@
+[submodule "faust-wdf-library"]
+	path = faust-wdf-library
+	url = https://github.com/droosenb/faust-wdf-library.git
+[submodule "faust-on-ESP32"]
+	path = faust-on-ESP32
+	url = https://github.com/droosenb/faust-on-ESP32.git
