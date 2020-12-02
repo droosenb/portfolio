@@ -6,7 +6,7 @@ Included are several recordings of recent performances.
 
 ### Improvisation 1
 
-This improvisation is a recording of a virtual performance on 11/20/20. The recording is a fully free duet with my teacher, Dana Jessen on bassoon. We performed remotely via jamulus. 
+This improvisation is a recording of a virtual performance on 11/20/20. The recording is a fully free duet with my teacher, Dana Jessen on bassoon. We performed remotely via Sonobus. 
 
 [link](https://drive.google.com/file/d/1RDpxTgqSibKAB49tgzI2PobcSDGOGked/view?usp=sharing)
 
