@@ -1,6 +1,0 @@
-[submodule "faust-wdf-library"]
-	path = embedded-ESP32/faust-wdf-library
-	url = https://github.com/droosenb/faust-wdf-library.git
-[submodule "faust-on-ESP32"]
-	path = wave-digital-model-library/faust-on-ESP32
-	url = https://github.com/droosenb/faust-on-ESP32.git
