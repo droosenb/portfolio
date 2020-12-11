@@ -2,7 +2,7 @@
 
 ![performance image](concert.JPG)
 
-*Performing my piece, "Dial In, Dial Up" composed for self-designed analog synthesizers at the Crafting Sound Festivle, Oberlin 2019. *
+*Performing my piece, "Dial In, Dial Up" composed for self-designed analog synthesizers at the Crafting Sound Festival, Oberlin 2019.*
 
 ## History
 
@@ -28,7 +28,7 @@ The main output of the synthesizer is the *Fingerring*, an interface designed by
 
 ![plexiwave synth close up](plexisynth-closeup.jpg)
 
-*A close up photo of the PlexiWave synth partway through the build process*
+*A close up photo of the PlexiWave synth partway through the build process.*
 
 The plexiwave synth is my second synthesizer following this design philosophy; it was designed reflecting insights from the Bowl Synth. I found that the Bowl Synth often forced me to perform in a hunched over position no different from conventional synthesizer gestures. I wanted to take this idea of multi-dimensionality to the extreme, making the synthesizer vertical with a surface too complex to be easily described. With no distinct front or back, I would be forced to develop totally new gestures for performance.
 
