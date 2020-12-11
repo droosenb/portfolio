@@ -26,7 +26,7 @@ The main output of the synthesizer is the *Fingerring*, an interface designed by
 
 ## The PlexiWave Synth
 
-![plexiwave synth close up](plexiwave-closeup.jpg)
+![plexiwave synth close up](plexisynth-closeup.jpg)
 
 *A close up photo of the PlexiWave synth partway through the build process*
 
