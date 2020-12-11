@@ -32,6 +32,6 @@ The main output of the synthesizer is the *Fingerring*, an interface designed by
 
 The plexiwave synth is my second synthesizer following this design philosophy; it was designed reflecting insights from the Bowl Synth. I found that the Bowl Synth often forced me to perform in a hunched over position no different from conventional synthesizer gestures. I wanted to take this idea of multi-dimensionality to the extreme, making the synthesizer vertical with a surface too complex to be easily described. With no distinct front or back, I would be forced to develop totally new gestures for performance.
 
-It is made of a sheet of plexiglass which was bent using a blowtorch. It includes a variety of oscillators and DC voltages sourcses for manipulation. Circuit boards are attached with contacts facing outwards for easy access tactile circuit bending. 
+The PlexiWave synth consists of circuit boards, potentiometers, and patch points are attached to a piece of plexiglas which has been bent with a blowtorch. It includes a variety of oscillators, DC voltages sources, and triggers/envelopes which can be accesed via patch points. Circuit boards are attached with contacts facing outwards for easy access tactile circuit bending. 
 
 
