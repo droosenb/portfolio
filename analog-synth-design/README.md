@@ -16,7 +16,7 @@ When designing these synthesizers, I hoped to expirement with interfaces which a
 
 In circuit bending, it is common to make metallic contacts avalible to be touched by the performer. The conductive nature of the human body is used to change the characteristics of the circuit. I integrated this as an intended element of my synthesizers, leaving metal contacts avalible to be touched by the user. By changing pressure and surface area contact with the metal, it changes the impedence of the connection between them formed by the human body. This property can be used to create more complex textures while performing, similar to how bow pressure can be manipulated by string players. I found this tactile aspect of to be very manipulatable and beautiful. 
 
-![audio flow diagram](performance-diagram.JPG)
+![audio flow diagram](performance-diagram-fix.JPG)
 
 ### The Fingerring
 
