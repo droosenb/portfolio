@@ -4,3 +4,6 @@
 [submodule "embedded-esp32/faust-on-ESP32"]
 	path = embedded-esp32/faust-on-ESP32
 	url = https://github.com/droosenb/faust-on-ESP32.git
+[submodule "wave-digital-model-library/faustlibraries"]
+	path = wave-digital-model-library/faustlibraries
+	url = https://github.com/grame-cncm/faustlibraries
