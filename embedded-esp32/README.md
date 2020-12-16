@@ -1,4 +1,4 @@
-#ESP-32 Embedded Faust Project (2019 - Present)
+# ESP-32 Embedded Faust Project (2019 - Present)
 
 ## Overview
 
