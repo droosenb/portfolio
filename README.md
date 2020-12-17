@@ -16,7 +16,7 @@ A project focused on extending the capabilities of the ESP-32 microcontroller to
 
 ## [Free Improvisation](free-improvisation) (2017 - present) 
 
-A breif showcase of some of my work as a free improvisor, my main mode of artistic expression and performance. I mainly perform on turntable but have also performed on synthesizers, pedals, and other electronics. 
+A brief showcase of some of my work as a free improvisor, my main mode of artistic expression and performance. I mainly perform on turntable but have also performed on synthesizers, pedals, and other electronics. 
 
 ## [Analog Synth Design](analog-synth-design) (2018 - 2019) 
 
