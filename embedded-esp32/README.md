@@ -36,10 +36,12 @@ Integration of the OSC code into existing Faust Architectures is currently pendi
 
 ## i2c Drivers
 
-Another of my major contributions was the writing of various i2c drivers. These drivers allow for the support of additional audio development platforms and functionality. 
+I have also contributed various i2c drivers to the Faust architectures.  There are many ESP32 development boards which are useful platforms for audio development, but each includes different i2c devices. Some are critical, such as i2s/i2c audio codecs, some are helpful or interesting, such as sensors. These drivers support of additional audio development platforms and functionality.
 
 I worked to write a es8388 driver, which allows the support of the [LyraT](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-LyraT?qs=MLItCLRbWsxPzPCja546ZA%3D%3D) within the Faust architectures, an audio development board designed by [espressif](https://www.mouser.com/manufacturer/espressif/). 
-The current implementation can be found [here](https://github.com/grame-cncm/faust/tree/master-dev/architecture/esp32/drivers).
+
 
 I also developed a driver for the MPU9250, an accelerometer found on the [TTGO-Taudio](https://github.com/LilyGO/TTGO-TAudio), another audio development board.
-This code has been implementaed as part of the [Gramophone project](https://www.amstramgrame.fr/) (link in French). The project seeks to introduce DSP programming to young-adults in primary school. 
+This code has been implemented as part of the [Gramophone project](https://www.amstramgrame.fr/) (link in French). The project seeks to introduce DSP programming to young-adults in primary school. 
+
+Current implementations of both can be found [here](https://github.com/grame-cncm/faust/tree/master-dev/architecture/esp32/drivers), as part of the Faust architectures. 
