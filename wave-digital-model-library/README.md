@@ -2,7 +2,7 @@
 
 ![Tube Screamer WD Model Block Diagram Algebra](tube-screamer-stage-c.png)
 
-*The Faust block diagram describing the final stage of a Ibanez Tube Screamer wave-digital model I created using my library.*
+*The Faust block diagram describing the final stage of an Ibanez Tube Screamer wave-digital model I created using my library.*
 
 ## Overview
 
