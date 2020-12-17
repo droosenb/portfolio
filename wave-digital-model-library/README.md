@@ -57,16 +57,16 @@ This implementation abstracts away the need for extensive knowledge of the direc
 
 Prior to this library, similar wave digital modeling libraries were limited to Matlab and C++. Matlab cannot perform real-time audio computation; furthermore, real-time audio implementation in C++ has a very steep learning curve and remains inaccessible to non-audio programmers, i.e. artists. Thus, the technique has largely found use among professionals and academics. 
 
-
-
 ## Novel Developments
 
-In order to create a wave digital modeling library in Faust, I had to develop a new implementation. Most implementations in C++ involve deceleration of the connection tree. At runtime, a full tree traversal must be performed in order to compute a single sample. 
+In order to create a wave digital modeling library in Faust, I had to develop a novel implementation technique for wave-digital models. Most implementations in C++ involve deceleration of the connection tree. At runtime, a full tree traversal must be performed in order to compute a single sample. 
 
-In Faust, I used functional programming and Faust's block diagram algebra (BDA) to create a "meta-language" within Faust which describes the tree structure. The user declares a symbolic tree based on their connection tree, linking to declared components. Functions then act on that symbolic tree, arranging the connections and creating a single model. The result is a single state-update equation which describes the model. 
+In Faust, I used functional programming and Faust's block diagram algebra (BDA) to create a "meta-language" within Faust which describes the tree structure. The user declares a symbolic tree based on their connection tree, linking to declared components. Functions then act on that symbolic tree at compile time, arranging the connections and creating a single function. This function is a single instructional state-update equation which corresponds to the model. 
 
 ## Future Research
 
-Current work focuses on translating the novel implementation in the library into a fully formed state-space model description. Currently, I am working to translate my method from Faust's block diagram algebra system into a linear algebra representation. I am currently working with Kurt Werner and Julius O. Smith III to refine and publish my preliminary results. We are hoping to publish a state-space description of the connection tree based implementation of wave digital models, an alternative to Sarti and De Sancits's state-space wave-digital description, the wave tableau method. (Sarti, De Sancits, "Systematic Methods for the Implementation of Nonlinear Wave-Digital Structures". 
+My current work focuses on translating the novel implementation in the library into a fully formed state-space representation of wave-digital models. Currently, I am working to refine my description of my implementation (which at first was described in Faust's block diagram algebra system) using linear algebra. The result can be translated into the desired state-space model representation.  
 
-I am also working to create tools which make the creation of R-type adaptors much simpler, allowing for a symbolic description. 
+I am working with Kurt Werner and Julius O. Smith III to refine and publish my preliminary results. We are hoping to publish this state-space description of the connection tree based implementation of wave digital models, an alternative to Sarti and De Sancits's state-space wave-digital description, the wave tableau method. (Sarti, De Sancits, *Systematic Methods for the Implementation of Nonlinear Wave-Digital Structures*. We hope that this state-space representation could be used to deepen understand of wave-digital models through comparison of wave-digital modeling methods with other state-space discrete virtual-analog methods, such as those described in Holterz and Zolzer *A Generalized Method for the Derivation fo Non-Linear State-Space Models from Circuit Schematics*  and Yeh et al. *Automated Physical Modeling of Nonlinear Audio Circuits for Real-Time Audio Effects - Part I & II*
+
+I am also working to create tools which make the creation of R-type adaptors much simpler. I am hoping to make available a program can generate R-type adaptors from a nodal description of the elements. I also hope to use this to generate the adaptors corresponding implementation in my library. This would greatly expand the current capabilities of the library, allowing modeling of more complex circuits. 
