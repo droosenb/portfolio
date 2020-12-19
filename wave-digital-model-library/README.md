@@ -12,24 +12,15 @@ The library is designed around a novel implementation of wave-digital models whi
 
 The library is currently published as part of the [faustlibraries](https://github.com/grame-cncm/faustlibraries) open source project. 
 
-My current work focuses on creating a state-space representation of my novel implementation and working to extend the capabilities of the library. 
+My current work focuses on creating a state-space representation of my novel implementation and working to extend the capabilities of the library.
 
-### Brief Wave-Digital Model Overview
+## Backround Information
 
-Wave-digital models provide a method for creating virtual-analog models of audio circuitry which can be run in real-time. The circuit is transformed from the Kirchhoff Domain to "Wave Domain"; rather then representing the system state with currents and voltages at various nodes, instead the system is described using "waves" (typically voltage waves) which travel between "adaptors." Adaptors describe the behavior of circuit elements in the wave domain with simple digital signal processing (DSP) algorithms. Thus, each simple circuit component is replaced by its respective adaptor which. The circuit's topology is treated as a graph and broken down into parallel, series, and rigid adaptors using SPQR graph decomposition. This process produces a "Connection Tree" of adaptors which describes the complete wave-digital model. Modeling non-linear elements, such as transistors and op-amps, requires more complex treatment. 
+If you are unfamiliar with with wave-digital modeling, I've included brief overveiws on these topics at the bottom of the document. 
 
-Wave digital models require no knowledge of circuit behavior to model, only circuit composition. 
-It also maintains the discrete nature of analog circuits; users can easily modify component values or change circuit topology without having to fully re-derive a model. 
-This opens the technique up to the possibility of digital circuit bending and modification of circuits. 
+  Wave-Digital Modeling     
 
-For a comprehensive description of the modeling method, see [Kurt Werner's thesis](https://searchworks.stanford.edu/view/11891203), *Virtual Analog Modeling of Audio Circuitry Using Wave Digital Filters*.
-
-### Brief Faust Overview
-
-"Faust (Functional Audio Stream) is a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc." (from https://faust.grame.fr)  
-Faust provides a platform suitable for both artists and audio programmers. It is capable of generating code which is optimized to run complex algorithms in real time, a necessity for physical modeling techniques. Furthermore, users can easily run their Faust code in external programs using the "faust2..." tools. These create platform specific implementations of Faust code, such as plugins, max externals, binaries for embedded devices, among others.
-
-For further information on Faust, see [Faust Documentation](https://faustdoc.grame.fr).
+  Faust
 
 ## Examples
 
@@ -70,3 +61,21 @@ My current work focuses on translating the novel implementation in the library i
 I am working with Kurt Werner and Julius O. Smith III to refine and publish my preliminary results. We are hoping to publish this state-space description of the connection tree based implementation of wave digital models, an alternative to Sarti and De Sancits's state-space wave-digital description, the wave tableau method. (Sarti, De Sancits, *Systematic Methods for the Implementation of Nonlinear Wave-Digital Structures*. We hope that this state-space representation could be used to deepen understand of wave-digital models through comparison of wave-digital modeling methods with other state-space discrete virtual-analog methods, such as those described in Holterz and Zolzer *A Generalized Method for the Derivation fo Non-Linear State-Space Models from Circuit Schematics*  and Yeh et al. *Automated Physical Modeling of Nonlinear Audio Circuits for Real-Time Audio Effects - Part I & II*
 
 I am also working to create tools which make the creation of R-type adaptors much simpler. I am hoping to make available a program can generate R-type adaptors from a nodal description of the elements. I also hope to use this to generate the adaptors corresponding implementation in my library. This would greatly expand the current capabilities of the library, allowing modeling of more complex circuits. 
+
+### Wave-Digital Model Overview
+
+Wave-digital models provide a method for creating virtual-analog models of audio circuitry which can be run in real-time. The circuit is transformed from the Kirchhoff Domain to "Wave Domain"; rather then representing the system state with currents and voltages at various nodes, instead the system is described using "waves" (typically voltage waves) which travel between "adaptors." Adaptors describe the behavior of circuit elements in the wave domain with simple digital signal processing (DSP) algorithms. Thus, each simple circuit component is replaced by its respective adaptor which. The circuit's topology is treated as a graph and broken down into parallel, series, and rigid adaptors using SPQR graph decomposition. This process produces a "Connection Tree" of adaptors which describes the complete wave-digital model. Modeling non-linear elements, such as transistors and op-amps, requires more complex treatment. 
+
+Wave digital models require no knowledge of circuit behavior to model, only circuit composition. 
+It also maintains the discrete nature of analog circuits; users can easily modify component values or change circuit topology without having to fully re-derive a model. 
+This opens the technique up to the possibility of digital circuit bending and modification of circuits. 
+
+For a comprehensive description of the modeling method, see [Kurt Werner's thesis](https://searchworks.stanford.edu/view/11891203), *Virtual Analog Modeling of Audio Circuitry Using Wave Digital Filters*.
+
+### Faust Overview
+
+"Faust (Functional Audio Stream) is a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc." (from https://faust.grame.fr)  
+Faust provides a platform suitable for both artists and audio programmers. It is capable of generating code which is optimized to run complex algorithms in real time, a necessity for physical modeling techniques. Furthermore, users can easily run their Faust code in external programs using the "faust2..." tools. These create platform specific implementations of Faust code, such as plugins, max externals, binaries for embedded devices, among others.
+
+For further information on Faust, see [Faust Documentation](https://faustdoc.grame.fr).
+
