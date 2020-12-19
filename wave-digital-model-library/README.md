@@ -18,9 +18,9 @@ My current work focuses on creating a state-space representation of my novel imp
 
 If you are unfamiliar with with wave-digital modeling, I've included brief overveiws on these topics at the bottom of the document. 
 
-  Wave-Digital Modeling     
+  [Wave-Digital Modeling](https://github.com/droosenb/portfolio/blob/main/wave-digital-model-library/README.md#wave-digital-model-overview)     
 
-  Faust
+  [Faust](https://github.com/droosenb/portfolio/blob/main/wave-digital-model-library/README.md#faust-overview)
 
 ## Examples
 
