@@ -1,8 +1,8 @@
-## Free Improvisation
+# Free Improvisation
 
 Beginning my first year of College, I've been active as a free improvisor. I primarily perform using extended technique turntablism, though my exact setup is flexible. I've performed both as a soloist and as part of ensembles. 
 
-Included are several recordings of recent performances. 
+## Recordings
 
 ### Improvisation 1
 
@@ -15,3 +15,9 @@ This improvisation is a recording of a virtual performance on 11/20/20. The reco
 For a bit more context on my technique, I've included a video excerpt of one of my regular practices, slowly exploring different textures and gestures. Skip around to get an idea of soundworld diveristy or watch through to get an idea of my exploration process. 
 
 [link](https://drive.google.com/file/d/11UGMaURoLligMwAK7vbd5k-I6w3J0OJr/view?usp=sharing)
+
+## My Current Setup
+
+![current turntable setup](turntable-setup.jpg)
+
+
