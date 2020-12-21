@@ -18,6 +18,6 @@ For a bit more context on my technique, I've included a video excerpt of one of 
 
 ## My Current Setup
 
-![current turntable setup](turntable-setup.jpg)
+![current turntable setup](turntable-setup.JPG)
 
 
